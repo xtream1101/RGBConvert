@@ -24,8 +24,8 @@
 class RGBConvert{
 
   public:
-    void rgb_to_hsb(float r, float g, float b, int *hsv);
-    void hsb_to_rgb(float h, float c, float l, int *rgb);
+    void rgbTohsv(float r, float g, float b, int *hsv);
+    void hsvTorgb(float h, float c, float l, int *rgb);
 
   private:
 
